@@ -1,0 +1,28 @@
+/* test 1 */
+/* color for "my-comp works!" */
+p{
+    color:blue;
+    font-size: 45px;
+}
+
+/* test 2 */
+/* .myClass{
+    color: rgb(0, 0, 255);
+    font-size: 25px;
+    font-style: italic;
+}
+
+.specialClass{
+    color: rgb(255, 0, 255);
+    font-size: 50px;
+    font-style: italic;
+
+}
+
+.colorClass{
+    color: rgb(0, 255, 0);
+}
+
+.fontClass{
+    font-size: 100px;
+} */

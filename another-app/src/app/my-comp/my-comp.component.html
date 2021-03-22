@@ -1,0 +1,52 @@
+<p>my-comp works!</p>
+
+<!-- test 1 -->
+<p>This is the string output : {{myString}}</p>
+<p>This is the first number output : {{myNumber}}</p>
+<p>This is the first number output plus 26 : {{myNumber + 26}}</p>
+<p>My cat's name is :: {{myJSON.catName}}</p>
+<p>My cat's Id is :: {{myJSON.catId}}</p>
+<button (click)="myFunc()">Click for another name!</button>
+<br>
+<p>This is the cat image from google :</p>
+<img src ="{{myImage}}">
+<br>
+<img [src]="myImage">
+My Input 1: <input [id]="myId" type="text">
+<br><br>
+My Input 2: <input [disabled]="inputDisabled" [id]="myId" type="text">
+<br><br>
+My Input 3: <input [disabled]="!inputDisabled" [id]="myId" type="text">
+<br><br>
+My Input 4: <input [value] ="myValue" [id]="myId" type="text"> 
+
+<!-- test 2 -->
+<!-- <div class="myClass"> This is a normal styles</div>  -->
+<!-- <div [class]="myVar"> This is a TS.</div>  -->
+<!-- <div [class.myClass]="isStyleActive">This is a conditional</div> -->
+<!-- <div [class.myClass]="!isStyleActive">This is a conditional</div> -->
+<!-- <div [class]="styleCheck"> This is from style Check.</div>  -->
+<!-- <div [ngClass]="styleCheck"> This is from style Check.</div>  -->
+
+<!-- test 3 style Binding--> 
+<!-- <div [style.color]="'red'">This is a Msg in red color.</div>
+<div [style.color]="'green'"
+    [style.text-align]="'center'">This is another Msg in green color.</div> -->
+
+<!-- <div [style.font-size.px]="'60'">The message for font size.</div> -->
+
+<!-- <div [style.color]="ifColor ? 'blue' : 'orange'">This is conditional boolean to check color.</div>
+<div [style.font-size.px]="ifFont ? '50' : '20'">This is conditional boolean to check font size.</div>
+<div [ngStyle]="myStyle">This is from Obj.</div> -->
+
+<!-- Test 4 tutorial 7 event Binding -->
+<!-- <p>{{myText}}</p>
+<button (click)="changeText()">Click here</button>
+<br><br>
+<button (click)="changeText()"></button> -->
+
+
+
+
+
+
